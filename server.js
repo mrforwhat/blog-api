@@ -12,7 +12,7 @@ let server = http.createServer((req,res)=> {
   if(req.url === '/api/users') {
     res.end(JSON.stringify(users))
   }else {
-    res.end('not found')
+    res.end('not founds')
   }
 })
 server.listen(3000,()=> {
